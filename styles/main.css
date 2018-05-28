@@ -20,10 +20,19 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.navbar_center {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.navbar li:not(:last-child):not(.navbar_center) {
+  margin-right: 10px;
+}
+
 /**************** HERO *****************/
 
 header img {
-  max-height: 6rem;
+  max-height: 3.5rem;
 }
 
 h1 .logo-w {
